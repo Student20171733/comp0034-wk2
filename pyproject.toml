@@ -4,7 +4,8 @@ version = "1.0.0"
 description = "COMP0034 Week 2 coding activities"
 dependencies = [
     "flask",
-    "Flask-SQLAlchemy"
+    "Flask-SQLAlchemy",
+    "pandas"
 ]
 
 [build-system]
