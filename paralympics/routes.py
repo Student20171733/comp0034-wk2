@@ -6,5 +6,5 @@ def hello():
   return f"Hello!"
 
 @app.route("/<name>")
-def hello(name=None):
+def hello_name(name=None):
     return f"Hello, {escape(name)}!"
